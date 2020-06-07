@@ -1,0 +1,225 @@
+*{
+  padding:0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background-color: rgb(167, 240, 31);
+  display:flex;
+  height: 100vh;
+}
+
+#container{
+  height: 70vh;
+  width: 70vh;
+  margin:auto auto;
+  position:relative;
+}
+
+.box{
+  position: absolute;
+  height: 8.75vh;
+  width: 8.75vh;
+  border: 1px solid black;
+  background-color: white;
+  text-align:center;
+}
+
+.startA{
+  background-color:rgb(240, 31, 31);
+  border: 0.2px solid black;
+  color:white;
+}
+
+.startB{
+  background-color:rgb(38, 31, 240);
+  border: 0.2px solid black;
+  color:white;
+}
+
+.homeA{
+  background-color:rgb(250, 112, 112);
+  border: 0.5px solid black;
+}
+
+.homeB{
+  background-color: aqua;
+  border: 0.5px solid black;
+  }
+
+
+#central_options{
+  position: relative;
+  width: 25vh;
+  height: 15vh;
+  top: 25vh;
+  background-color: white;
+  margin: auto auto;
+}
+
+
+#turns{
+  height: 31%;
+  width: 100%;
+  text-align: center;
+  padding-top: 3%;
+  background-color: rgb(237, 235, 235);
+  margin-bottom: 5%;
+}
+
+
+#rollButton{
+  height: 32.33%;
+  width: 60%;
+  border: 1px solid grey;
+  border-radius: 0.5em;
+  text-align: center;
+  padding-top: 3%;
+  color:black;
+  background-color:rgb(219, 217, 217);
+  margin: auto auto;
+}
+
+
+#rollValue{
+  margin-top: 5%;
+  height: 31%;
+  width: 100%;
+  padding-top: 2.5%;
+  text-align: center;
+  font-size: 100%;
+  background-color: rgb(237, 235, 235);
+}
+
+#lockerA{
+  position: absolute;
+  background-color: white;
+  height: 20vh;
+  width: 20vh;
+  left: 22%;
+  top: 10%;
+  border: 2px solid black;
+}
+
+
+#lockerB{
+  position: absolute;
+  background-color: white;
+  height: 20vh;
+  width: 20vh;
+  right: 22%;
+  bottom: 10%;
+  border: 2px solid black;
+}
+
+.label{
+  width: 100%;
+  height: 30%;
+  text-align: center;
+  padding-top: 0.6em;
+}
+
+#labelA{
+  background-color:red;
+}
+
+
+#labelB{
+  background-color:blue;
+}
+
+
+.tokenSpace{
+  font-size: 150%;
+  text-align: center;
+  padding-top: 10%;
+}
+
+.button{
+  background-color:rgb(219, 217, 217);
+  text-align:center;
+  width: 90%;
+  height: 30%;
+  border-radius: 0.5em;
+  margin: auto auto;
+  position: absolute;
+  padding: 2% 0;
+  bottom: 5%;
+  left: 5%;
+  font-size: 80%;
+}
+
+
+.button:hover{
+  background-color:rgb(210, 212, 210);
+  border: 1px solid grey;
+}
+
+
+#winBoard{
+  height: 70vh;
+  width: 70vh;
+  background-color: white;
+  margin:auto auto;
+  position:absolute;
+  left:34.15%;
+  top: 15%;
+  border: 3px solid black;
+  text-align: center;
+  padding-top:11.5%;
+  font-size: 230%;
+  filter:opacity(0);
+}
+
+.home{
+    height: 15vh;
+    width:15vh;
+    position:absolute;
+    margin: auto auto;
+    border: 2px solid black;
+    text-align: center;
+    font-size: 135%;
+    padding-top: 0.4%;
+}
+
+#homeA{
+  background-color:red;
+  left: 24.25%;
+  top:35%;
+}
+
+#homeB{
+  background-color: blue;
+  right: 24.25%;
+  bottom:35%;
+}
+
+#checkRollSection
+{
+  text-align: center;
+  position: absolute;
+  width: 20vh;
+  height: 15vh;
+  background-color: white;
+  font-size: 90%;
+  left: 45.5%;
+  top: 58%;
+  padding-top: 0.5%;
+}
+
+#checkRollButton
+{
+  background-color:rgb(219, 217, 217);
+  border: 1px solid grey;
+  width: 80%;
+  margin:5% auto;
+  text-align: center;
+  border-radius: 0.25em;
+}
+
+#checkRollButton:hover
+{
+  background-color:rgb(210, 212, 210);
+  
+}
